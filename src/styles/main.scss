@@ -3,7 +3,10 @@
 @use 'shows';
 @use 'plans';
 @use 'available-devices';
+<<<<<<< HEAD
 @use 'faq';
+=======
+>>>>>>> 4089bf5d4299244555ca08e8e7181e604c1cf83c
 @use 'footer';
 @use 'header';
 
@@ -141,10 +144,13 @@ body {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 
+<<<<<<< HEAD
     @media (max-width: 768px) {
         display: block;
     }
 
+=======
+>>>>>>> 4089bf5d4299244555ca08e8e7181e604c1cf83c
     img {
         max-width: 100%;
     }
@@ -174,11 +180,14 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: center;
+<<<<<<< HEAD
 
             @media (max-width: 768px) {
                 position: relative;
                 left: 0;
                 width: 100%;
             }
+=======
+>>>>>>> 4089bf5d4299244555ca08e8e7181e604c1cf83c
         }
 }}

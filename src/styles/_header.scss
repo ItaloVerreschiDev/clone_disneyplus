@@ -27,6 +27,7 @@
         padding: 8px 36px;
         display: flex;
         justify-content: space-between;
+<<<<<<< HEAD
 
         @media (max-width: 768px) {
             padding: 0 12px 0 20px;
@@ -43,6 +44,15 @@
         @media (max-width: 768px) {
             max-width: 64px;
         }
+=======
+    }
+
+    &__logo {
+        max-width: 60px;
+        width: 100%;
+        margin: 5px;
+        transition: opacity .5s ease;
+>>>>>>> 4089bf5d4299244555ca08e8e7181e604c1cf83c
     }
 
     &__links {
@@ -55,6 +65,7 @@
     }
     .button {
         height: 50px;
+<<<<<<< HEAD
 
         @media (max-width: 768px) {
             font-size: 13px;
@@ -62,5 +73,7 @@
             height: 40px;
             letter-spacing: 0;
         }
+=======
+>>>>>>> 4089bf5d4299244555ca08e8e7181e604c1cf83c
     }
 }

@@ -11,11 +11,14 @@
         gap: 24px;
         grid-template-columns: repeat(4, 1fr);
 
+<<<<<<< HEAD
         @media (max-width:768px) {
             
         grid-template-columns: 1fr 1fr;
         }
 
+=======
+>>>>>>> 4089bf5d4299244555ca08e8e7181e604c1cf83c
         &__item{
             text-align: center;
 
